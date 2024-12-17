@@ -5,14 +5,14 @@
       "src": "backend/src/index.ts",
       "use": "@vercel/node",
       "config": {
-        "buildCommand": "cd backend && npm install && tsc"
+        "buildCommand": "cd backend && pnpm install && tsc"
       }
     },
     {
       "src": "frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "buildCommand": "cd frontend && npm install && npm run build",
+        "buildCommand": "cd frontend && pnpm install && pnpm build",
         "distDir": "dist"
       }
     }
