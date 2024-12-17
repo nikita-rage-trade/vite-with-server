@@ -1,6 +1,6 @@
 {
   "name": "my-fullstack-project",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "install:all": "pnpm install:frontend && pnpm install:backend",
     "install:frontend": "cd frontend && pnpm install",
