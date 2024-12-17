@@ -1,0 +1,13 @@
+{
+  "name": "my-fullstack-project",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "pnpm install:frontend && pnpm install:backend",
+    "install:frontend": "cd frontend && pnpm install",
+    "install:backend": "cd backend && pnpm install",
+    "build": "pnpm build:frontend && pnpm build:backend",
+    "build:frontend": "cd frontend && pnpm build",
+    "build:backend": "cd backend && pnpm build",
+    "start": "cd backend && pnpm start"
+  }
+}
